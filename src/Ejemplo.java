@@ -70,6 +70,10 @@ class Main {
         System.out.println("la edad del perro es: " + perro.edad);
         System.out.println("la raza del perro es: " + perro.raza);
         perro.sonido();
+        System.out.println("El nombre del perro es: " + perro2.nombre);
+        System.out.println("la edad del perro es: " + perro2.edad);
+        System.out.println("la raza del perro es: " + perro2.raza);
+        perro2.sonido();
 
         System.out.println("El nombre del gato es: " + gato.nombre);
         System.out.println("la edad del gato es: " + gato.edad);
