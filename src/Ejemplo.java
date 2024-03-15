@@ -53,6 +53,12 @@ class Main {
 
         Perro perro = new Perro(perroNombre, perroEdad, perroRaza);
 
+        String perro2Nombre = JOptionPane.showInputDialog("Ingrese el nombre del perro: ");
+        int perro2Edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del perro: "));
+        String perro2Raza = JOptionPane.showInputDialog("Ingrese la raza del perro: ");
+        
+        Perro perro2 = new Perro(perro2Nombre, perro2Edad, perro2Raza);
+
         String gatoNombre = JOptionPane.showInputDialog("Ingrese el nombre del gato: ");
         int gatoEdad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del gato: "));
         String gatoRaza = JOptionPane.showInputDialog("Ingrese la raza del gato: ");
